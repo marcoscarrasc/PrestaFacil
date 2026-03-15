@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import ubigeoData from '@/data/ubigeo.json';
 
 const INTEREST_RATE_MONTHLY = 0.10;
-const ADMIN_PHONE = "51922100353"; // Reemplaza con el número real del administrador
+const ADMIN_PHONE = "51952283982"; // Reemplaza con el número real del administrador
 
 function formatCurrency(amount: number): string {
   return new Intl.NumberFormat('es-PE', {
